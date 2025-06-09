@@ -4,7 +4,7 @@ from numpy.fft import rfft, irfft
 HN = [1,1,1]
 XN = [3,-1,0,1,3,2,0,1,2,1, 3,-1,0,1,3,2,0,7,8,9]
 
-M = len(HN) # length of anslysis/synth filter/ kernel
+M = len(HN) # length of analysis/synth filter/ kernel
 L = 4 # block size of incoming samples/ hop-size
 N = L + M - 1
 
